@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href = "assets/css/reset.css">
+    <link rel = "stylesheet" href = "assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Crystal Game</title>
+</head>
+<body>
+    <h1>Crystals Collector!</h1>
+
+    <div class=container>
+        <div class=row>
+            <div class=col-md-12>
+                <p>Rules <br/> You will be given a random  number etc............</p>
+            </div>
+        <div class=row>
+            <div class=col-md-3> 
+                <h4><span id="number-to-guess"></span></h4>
+            </div>
+            <div class=col-md-3> 
+            </div>
+            <div class = col-md-3> 
+                <p>Win:<span id="winNum"></span></p>
+                <p>losses:<span id="lostNum"></span></p>
+            </div>
+            <div class=col-md-3> 
+            </div>
+        </div>
+        <div class=row>
+            <div class=col-md-3> 
+                <img src="assets/images/diamond.png" alt="diamond" id="diamondGem" width="100px" height="100">
+            </div>
+            <div class=col-md-3> 
+                <img src="assets/images/emerald.png" alt="emerald" id="emeraldGem" width="100px" height="100">
+            </div>
+            <div class=col-md-3>
+                <img src="assets/images/ruby.png" alt="ruby" id="rubyGem" width="110px" height="110">
+            </div>
+            <div class=col-md-3> 
+                <img src="assets/images/sapphire.png" alt="sapphire" id="sapphireGem" width="100px" height="100">
+            </div>
+        </div>              
+        <div class=row>
+            <div class=col-md-6>
+                <p>Total gem score is:</p>
+            </div>
+            <div class=col-md-6> 
+            </div>
+        </div>
+        <div class=row>
+            <div class=col-md-6>
+            <div><span id="gemTotalScore"></span></div>
+            </div>
+            <div class=col-md-6> 
+            </div>
+        </div>    
+       
+       
+    </div>
+
+    <script>scr = "assets/javascript/game.js"</script>
+    <!-- <script>scr = "assets/javascript/javascript.js"</script> -->
+    
+</body>
+</html>
